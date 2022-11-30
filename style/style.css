@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Albert Sans";
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --putih : #F1F1F1;
+}
+
+/* NAVBAR */
+.navbar {
+    font-size: 20px;
+    outline: none;
+    padding: 5px 10px;
+    padding-top: 1rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-align: center;
+    color: var(--putih);
+    text-decoration: none;
+    padding: 5px 8px;
+    margin: 0px 10px;
+    border-radius: 2px;
+}
+
+.navbar a:hover {
+    color: var(--putih);
+    background-color: rgb(64, 64, 64);
+    transition: 0.2s ease-in-out;
+}
+
+/* WELCOME */
+.welcome {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: rgb(64, 58, 47);
+    background: linear-gradient(144deg, rgba(64, 58, 47, 1) 0%, rgba(19, 19, 19, 1) 30%);
+}
+
+.welcome-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* QUOTE */
+.quote {
+    color: var(--putih);
+    font-size: 24px;
+    font-weight: 300;
+    width: 400px;
+    cursor: default;
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 12%;
+}
+
+/* PROFILE */
+.photo-profile {
+    display: flex;
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    cursor: default;
+}
+
+.photo-profile img {
+    width: auto;
+    height: 400px;
+    -webkit-mask: url("/asset/masking-profile.svg");
+    -webkit-mask-size: cover;
+}
+
+/* NAME */
+.nama {
+    right: -100px;
+    display: block;
+    position: absolute;
+    top: -1%;
+    mask-composite: subtract;
+}
+
+.nama h1 {
+    color: var(--putih);
+    font-weight: 500;
+    padding: 2px 10px;
+    font-size: 40px;
+}
+
+/* PROFESI */
+.profesi {
+    display: block;
+    position: absolute;
+    bottom: -1%;
+    left: -100px;
+}
+
+.profesi h1 {
+    color: var(--putih);
+    font-weight: 500;
+    padding: 2px 10px;
+    font-size: 40px;
+}
+
+/* COMPANY */
+.company {
+    background-color: rgb(10, 10, 10);
+    padding: 18px;
+    padding-bottom: 3px;
+}
+
+.company ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.company ul li {
+    display: block;
+    margin: 0px 30px;
+}
+
+.company ul li img {
+    height: 40px;
+    opacity: 30%;
+}
+
+/* PROJECT */
+#Experience {
+    background: rgb(19, 19, 19);
+    background: linear-gradient(90deg, rgba(19, 19, 19, 1) 26%, rgba(64, 58, 47, 1) 100%);
+    padding-top: 30px;
+    cursor: default;
+}
+
+.project {
+    padding: 10px 10px;
+}
+
+.project h1 {
+    font-size: 40px;
+    color: var(--putih);
+    text-align: center;
+}
+
+.project-1 {
+    padding: 20px 0px;
+}
+
+.project-item {
+    color: var(--putih);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-item i {
+    font-size: 60px;
+    opacity: 50%;
+}
+
+.project-item .num {
+    font-size: 30px;
+}
+
+.project-item .text {
+    font-size: 20px;
+}
+
+/* CERTIFICATE */
+#Certificate {
+    background: rgb(19,19,19);
+    background: linear-gradient(0deg, rgba(19,19,19,1) 50%, rgba(64,58,47,0) 100%);    margin: 0%;
+    padding: 20px;
+}
+
+#Certificate div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#Certificate div h1 {
+    color: var(--putih);
+    font-size: 30px;
+    text-align: center;
+}
+
+#Certificate div hr {
+    margin: 0%;
+    border: 5px solid;
+    width: 100px;
+    color: var(--putih);
+    opacity: 50%;
+}
+
+#Certificate ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 0px;
+}
+
+#Certificate a {
+    display: block;
+    padding: 0px 8px;
+}
+
+#Certificate a :hover{
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+
+#Certificate img {
+    border-radius: 10px;
+    height: auto;
+    width: 300px;
+}
+
+/* SOCMED */
+#Socmed{
+    background-color: rgba(19, 19, 19, 1);
+    padding: 20px;
+}
+
+#Socmed div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Socmed div h1 {
+    color: var(--putih);
+    font-size: 30px;
+    text-align: center;
+}
+
+#Socmed div hr {
+    margin: 0%;
+    border: 5px solid;
+    width: 100px;
+    color: var(--putih);
+    opacity: 50%;
+}
+
+.socmed-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.socmed-container a {
+    display: block;
+    text-decoration: none;
+}
+
+.socmed-container i {
+    font-size: 50px;
+    color: rgb(255, 231, 178);
+    opacity: 50%;
+}
+
+.socmed-container h1 {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 6px;
+    color: var(--putih);
+}

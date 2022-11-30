@@ -1,0 +1,22 @@
+.scroll-top {
+    display: inline-block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 12px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.scroll-top:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
