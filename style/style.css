@@ -228,6 +228,7 @@ body {
 
 #Certificate a :hover{
     transform: translateY(-3px);
+    scale: 1.05;
     transition: 0.2s;
 }
 
@@ -270,6 +271,7 @@ body {
     text-align: center;
     justify-content: space-around;
     padding: 20px 0px;
+    margin: 0px 20px;
 }
 
 .socmed-container a {
@@ -288,4 +290,9 @@ body {
     font-weight: 300;
     margin-top: 6px;
     color: var(--putih);
+}
+
+#Socmed a :hover{
+    transform: translateY(-3px);
+    transition: 0.2s;
 }
